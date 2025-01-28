@@ -428,3 +428,5 @@ obj/
 # Yaygın olarak ignore edilenler
 .vscode/
 *.swp
+
+cem.txt
