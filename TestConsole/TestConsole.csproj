@@ -18,8 +18,8 @@
         <Authors>Cem Altunsoy</Authors>
         <Description>Real-time logging and monitoring library for .NET applications</Description>
         <PackageTags>logging;monitoring;mediator;dotnet</PackageTags>
-        <PackageProjectUrl>https://github.com/username/dotflow</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/username/dotflow</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/cemaltunsoy/Logla</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/cemaltunsoy/Logla</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <IsPackable>true</IsPackable>
