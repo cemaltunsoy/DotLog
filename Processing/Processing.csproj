@@ -9,5 +9,20 @@
     <ItemGroup>
       <ProjectReference Include="..\Core\Core.csproj" />
     </ItemGroup>
+    <PropertyGroup>
+        <PackageId>DotFlow.$(MSBuildProjectName)</PackageId>
+        <Version>1.0.0</Version>
 
+        <Authors>Cem Altunsoy</Authors>
+        <Description>Real-time logging and monitoring library for .NET applications</Description>
+        <PackageTags>logging;monitoring;mediator;dotnet</PackageTags>
+        <PackageProjectUrl>https://github.com/username/dotflow</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/username/dotflow</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../../README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
 </Project>
