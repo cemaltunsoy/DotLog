@@ -398,3 +398,33 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Rider ve IDE dosyaları
+.idea/
+*.iml
+
+# Build dosyaları
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Paket dosyaları
+*.nupkg
+*.snupkg
+
+# Kullanıcı ayar dosyaları
+*.user
+*.suo
+
+# Temporary dosyalar
+*.log
+*.tmp
+*.cache
+*.lock
+*.DS_Store
+
+# Yaygın olarak ignore edilenler
+.vscode/
+*.swp
